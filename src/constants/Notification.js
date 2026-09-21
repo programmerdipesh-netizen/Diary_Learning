@@ -1,4 +1,4 @@
-const notifications = [
+export const notifications = [
   {
     title: "General Announcement",
     message: "Important announcement for all staff.",
@@ -21,4 +21,7 @@ const notifications = [
   }
 ];
 
-export default notifications;
+export const pageTitle= "Notification";
+
+
+

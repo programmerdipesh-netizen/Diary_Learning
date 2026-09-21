@@ -1,11 +1,12 @@
 import React from "react";
-import { NotificationData } from "../Data";
+import {notifications} from "../constants"
+import {pageTitle} from "../constants"
 import {Header} from "../components";
 import { FiMoreHorizontal} from "../components";
 
 
 const Notification = () => {
-  const pageTitle= "Notification";
+  
   return (
     <div className="min-h-screen bg-slate-50 p-8">
     
@@ -14,7 +15,7 @@ const Notification = () => {
 
    
       <div className="flex flex-col gap-5 max-w-5xl">
-        {NotificationData.map((item, index) => (
+        {notifications.map((item, index) => (
           <div
             key={index}
             className="bg-white rounded-xl p-6 shadow-sm border-l-4 border-l-blue-500 border border-slate-100 relative transition-all hover:shadow-md"
@@ -34,7 +35,7 @@ const Notification = () => {
             </div>
 
           
-            <div className="text-sm text-slate-600 space-y-2 leading-relaxed">
+            <div className="text-sm text-slate-600 space-y-2 leading-relaxed ml-3">
               <p>Dear Parent,</p>
               <p>{item.message}</p>
               <p className="pt-1">
