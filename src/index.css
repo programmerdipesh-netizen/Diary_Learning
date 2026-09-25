@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.sidebar-fonts {
+  font-size: 20px;
+}
+.sidebar-fonts:hover {
+  font-size: 18 px;
+  background-color: #2f5fa7;
+  padding: 12px;
+}
