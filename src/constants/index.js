@@ -1,3 +1,3 @@
 
 export * from "./Notification";
-export * from "./marks";
+export * from "./Marks";
