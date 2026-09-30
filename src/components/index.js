@@ -7,6 +7,7 @@ import { FiMoreHorizontal } from "react-icons/fi";
 
 //Exporting all the components from a single file
 export { default as Header } from "./header";
+export {default as MarksTable} from "./MarksTable";
 
 
 

@@ -1,7 +1,8 @@
 import React from "react";
+import { MarksTable } from "../components";
 
 const Marks = () => {
-  return <div>Marks</div>;
+  return <MarksTable></MarksTable> ;
 };
 
 export default Marks;
