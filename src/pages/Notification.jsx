@@ -1,6 +1,6 @@
 import React from "react";
-import {notifications} from "../constants"
-import {pageTitle} from "../constants"
+import { notifications, pageTitle } from "../constants/Notification";
+
 import {Header} from "../components";
 import { FiMoreHorizontal} from "../components";
 

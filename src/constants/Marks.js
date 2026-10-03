@@ -19,3 +19,5 @@ export const getGrades= (avg)=>{
     if(avg<=30) return "E";
 
 }
+
+export const pageTitle= "Marks";
