@@ -11,7 +11,7 @@ const Notification = () => {
     <div className="min-h-screen bg-slate-50 p-8">
     
 
-       <Header pageTitle={pageTitle} />  
+       <Header pageTitle={"Notification"} />  
 
    
       <div className="flex flex-col gap-5 max-w-5xl">

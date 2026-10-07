@@ -21,3 +21,8 @@ export const getGrades= (avg)=>{
 }
 
 export const pageTitle= "Marks";
+
+export const studentInfo= {
+    name: "Sandip K.C.",
+    grade: "Grade 9", 
+};
