@@ -1,8 +1,27 @@
 import React from "react";
-import {Header} from "../components"
+import {Header, StudentHeader} from "../components"
+import {SummaryAttendanceDataCard} from "../components";
 
 const Attendance = () => (
-  <Header pageTitle={"Attendance"} />);
+ <div> 
+  <Header pageTitle={"Attendance"}/>
+  <div>
+     <StudentHeader/>
+     <SummaryAttendanceDataCard />
+     
+     <div>
+      <div> </div>
+      <div>
+
+      </div>
+     </div>
+
+
+
+  </div>
+ 
+ </div>
+);
   
  
 
