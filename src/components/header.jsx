@@ -1,7 +1,7 @@
 import React from "react";
 import { FiSearch,FiBell} from "react-icons/fi";
 
-const Header = ({ pageTitle = pageTitle }) => {
+const Header = ({ pageTitle }) => {
   return (
     <div className="flex items-center justify-between w-full py-4 px-2 mb-6">
    

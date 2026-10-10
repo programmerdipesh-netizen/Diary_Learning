@@ -1,8 +1,9 @@
 import React from "react";
+import {Header} from "../components"
 
-const Attendance = () => {
-  return <div>Attendance</div>;
-};
+const Attendance = () => (
+  <Header pageTitle={"Attendance"} />);
+  
  
 
 export default Attendance;
