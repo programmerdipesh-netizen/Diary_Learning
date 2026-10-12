@@ -3,7 +3,7 @@ import {Header, StudentHeader} from "../components"
 import {SummaryAttendanceDataCard} from "../components";
 
 const Attendance = () => (
- <div> 
+ <div className=" bg-slate-50 mx-6"> 
   <Header pageTitle={"Attendance"}/>
   <div>
      <StudentHeader/>
