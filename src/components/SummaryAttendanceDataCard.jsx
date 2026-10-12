@@ -8,38 +8,38 @@ const SummaryAttendanceDataCard = () => {
 
         
         <li className="bg-white rounded-xl p-6 shadow-sm">
-          <p className="text-sm font-medium text-gray-500">Days Present</p>
           <p className="text-3xl font-bold mt-2">
             {summaryAttendanceData.DaysPresent}
           </p>
+          <p className="text-sm font-medium text-gray-500">Days Present</p>
         </li>
 
         <li className="bg-white rounded-xl p-6 shadow-sm">
-          <p className="text-sm font-medium text-gray-500">Leave</p>
           <p className="text-3xl font-bold mt-2">
             {summaryAttendanceData.Leave}
           </p>
+          <p className="text-sm font-medium text-gray-500">Leave</p>
         </li>
 
         <li className="bg-white rounded-xl p-6 shadow-sm">
-          <p className="text-sm font-medium">Days Absent</p>
           <p className="text-3xl font-bold mt-2">
             {summaryAttendanceData.DaysAbsent}
           </p>
+          <p className="text-sm font-medium">Days Absent</p>
         </li>
 
         <li className="bg-white  rounded-xl p-6 shadow-sm">
-          <p className="text-sm font-medium text-gray-500">Days Late</p>
           <p className="text-3xl font-bold mt-2">
             {summaryAttendanceData.DaysLate}
           </p>
+          <p className="text-sm font-medium text-gray-500">Days Late</p>
         </li>
 
         <li className="bg-white rounded-xl p-6 shadow-sm">
-          <p className="text-sm font-medium text-gray-500">Attendance Rate</p>
           <p className="text-3xl font-bold mt-2">
             {summaryAttendanceData.AttendanceRate}%
           </p>
+          <p className="text-sm font-medium text-gray-500">Attendance Rate</p>
         </li>
       </ul>
     </div>

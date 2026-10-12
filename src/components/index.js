@@ -13,7 +13,8 @@ export { default as Header } from "./Header";
 export {default as MarksTable} from "./MarksTable";
 export { default as SummaryCard } from "./SummaryCard";
 export {default as StudentHeader} from "./StudentHeader";
-export {default as SummaryAttendanceDataCard} from "./SummaryAttendanceDataCard"
+export {default as SummaryAttendanceDataCard} from "./SummaryAttendanceDataCard";
+export {default as AttendanceRecordTable} from "./AttendanceRecordTable";
 
  
 
