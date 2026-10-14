@@ -9,7 +9,7 @@ const Marks = () => (
     <Header pageTitle={pageTitle} />
     <div className="flex flex-col lg:flex-row gap-5 p-6">
       <div className="flex-1 bg-white border border-gray-200 rounded-lg p-4">
-       <StudentHeader/>
+       <StudentHeader className={"px-4"}/>
         <MarksTable />
         <div className="mt-5 flex gap-3">
           <Button

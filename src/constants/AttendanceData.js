@@ -1,11 +1,10 @@
-export const summaryAttendanceData = {
-  DaysPresent: 152,
-  Leave: 5,
-  DaysAbsent: 5,
-  DaysLate: 7,
-  AttendanceRate: 96,
-};
-
+export const summaryAttendanceData = [
+  { label: "Days Present", value: 152 },
+  { label: "Leave", value: 5 },
+  { label: "Days Absent", value: 5 },
+  { label: "Days Late", value: 7 },
+  { label: "Attendance Rate", value: 96, suffix: "%" },
+];
 export const attendanceRecords = [
   { id: 1, date: "2025-05-01", status: "late", arrivalTime: "08:20", note: "Forgot lunch" },
   { id: 2, date: "2025-05-02", status: "present", arrivalTime: "07:55", note: "Dentist appointment" },

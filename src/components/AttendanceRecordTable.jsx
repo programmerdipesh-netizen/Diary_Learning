@@ -1,4 +1,3 @@
-import React from 'react'
 import {attendanceRecords} from "../constants"
 const AttendanceRecordTable = () => {
   return (

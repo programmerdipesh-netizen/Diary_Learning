@@ -27,7 +27,7 @@ const MarksTable = () => {
               <td className="py-3 px-2 text-center">{row.mid}</td>
               <td className="py-3 px-2 text-center">{row.final}</td>
               <td className="py-3 px-2 text-center">
-                <span className="inline-block min-w-[28px] px-1.5 py-1 rounded bg-blue-100 text-blue-700 text-sm font-medium">
+                <span className="inline-block min-w-7 px-1.5 py-1 rounded bg-blue-100 text-blue-700 text-sm font-medium">
                   {row.grade}
                 </span>
               </td>

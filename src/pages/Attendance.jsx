@@ -6,7 +6,7 @@ const Attendance = () => (
 <div className=" bg-slate-50 mx-6"> 
    <Header pageTitle={"Attendance"}/>
    <div>
-      <StudentHeader/>
+      <StudentHeader className={"px-4 mx-3"}/>
       <SummaryAttendanceDataCard />
       
       <div>
